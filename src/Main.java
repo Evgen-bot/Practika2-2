@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        int startscore = 150;
+        int startScore = 150;
 
         int replen = 2000;
 
@@ -11,7 +11,7 @@ public class Main {
         } else {
             bonus = replen / 100;
         }
-        int balance = startscore + bonus;
+        int balance = startScore + bonus;
 
         System.out.println("Счет:" + balance);
     }
